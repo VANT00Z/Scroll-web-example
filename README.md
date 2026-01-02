@@ -22,7 +22,7 @@ This is open code to example of scroll web-site
 
 - .list - main list with pictures
 
-# Html-struucture
+# Html-structure
 
 ```
 container
