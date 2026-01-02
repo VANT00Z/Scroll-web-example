@@ -2,6 +2,8 @@
 
 This is open code to example of scroll web-site
 
+![demonstration](web-code/resources/git-pics/git-pic1.png)
+
 # What i use
 
 - Css
@@ -11,10 +13,12 @@ This is open code to example of scroll web-site
 # Short dictionary
 
 - .logo - Inscription 'Y2K style'
-![logo](resources\git-pics\git-pic2.png)
+
+![logo](web-code/resources/git-pics/git-pic2.png)
 
 - .buttons - Buttons (other, github)
-![buttons](resources\git-pics\git-pic3.png)
+
+![buttons](web-code/resources/git-pics/git-pic3.png)
 
 - .list - main list with pictures
 
@@ -65,6 +69,12 @@ script
 ```
 
 # P.S.
+I created reandomize spawn circles at the screen by js (you can seet it at demonstration screenshot)
+---
+
 All the images I used are linked. I dont try steal it :)
+---
+
 This version of the site is adaptive only for > 870  (for pads and laptops/pc)
 Later i make it adaptive for all screen sizes.
+---
