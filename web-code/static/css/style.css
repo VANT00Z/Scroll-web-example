@@ -4,7 +4,7 @@
     width: 0;
 }
 
-/* <- Here remove scrollbar */
+/* ^ Here remove scrollbar */
 * {
     margin: 0;
     padding: 0;
@@ -31,16 +31,17 @@ body {
 }
 
 .list li {
-    padding: 80px 0 100px 120px;
-    margin: 80px 0 100px 120px;
+    padding: 100px 0;
+    width: auto;
 }
 
 .list img {
     border-radius: 16px;
-    width: 50vh;
-    height: 50vh;
+    width: 55vh;
+    height: 55vh;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    flex-shrink: 0;
 }
 
 .list img:hover {
@@ -178,9 +179,17 @@ body {
     .nav a {
         margin: 20px auto 0;
     }
+
+    .list li {
+        margin-left: 230px;
+    }
 }
 
 @media only screen and (min-width: 870px) and (max-width: 1400px) {
+    .container {
+        overflow-x: hidden;
+    }
+
     .buttons {
         margin-left: 60vh;
     }
@@ -188,11 +197,23 @@ body {
     .nav a {
         margin: 20px auto 0;
     }
+
+    .list li {
+        margin-left: 230px;
+    }
 }
 
 @media only screen and (max-width: 870px) {
+    .container {
+        overflow-x: hidden;
+    }
+
     .nav a {
         margin: 100px auto 0;
+    }
+
+    .list li {
+        margin-left: 50px;
     }
 }
 
