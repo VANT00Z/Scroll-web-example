@@ -74,7 +74,3 @@ I created reandomize spawn circles at the screen by js (you can seet it at demon
 
 All the images I used are linked. I dont try steal it :)
 ---
-
-This version of the site is adaptive only for > 870  (for pads and laptops/pc)
-Later i make it adaptive for all screen sizes.
----
